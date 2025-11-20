@@ -507,6 +507,35 @@ margin-top: 1rem;
     }
 }
 
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f7f7f7; }
+        h2 { text-align: center; margin-bottom: 30px; }
+        .certificates-container { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+            max-width: 1000px; 
+            margin: auto;
+        }
+        .certificate-card {
+            background: rgb(205, 142, 142); 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(211, 30, 30, 0.1); 
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .certificate-card:hover { transform: translateY(-5px); }
+        .certificate-card a {
+            text-decoration: none; 
+            color: white; 
+            background: #007bff; 
+            padding: 10px 15px; 
+            border-radius: 5px; 
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .certificate-card a:hover { background: #0056b3; }
+
 
 /* ================================
      Skills Section
@@ -557,19 +586,35 @@ margin-top: 1rem;
     margin-top: 2rem;
 }
 
-.project-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #ffffff;
-    border-radius: 12px;
-    overflow: hidden;
-    /* Ensures corners of image are rounded */
-    box-shadow: 0 8px 16px rgba(112, 96, 96, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 100%;
-    /* Ensures consistent height */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
 }
+
+.project-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* keeps your images neat & uniform */
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.project-title a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
 .project-card:hover {
     transform: translateY(-6px);
