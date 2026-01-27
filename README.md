@@ -18,8 +18,8 @@ This is a simple yet elegant web-based portfolio created using **HTML, CSS, and 
 
 ## 🧑‍💻 Live Demo
 
-👉 [Click here to visit my portfolio](https://your-live-site-link.netlify.app)  
-*(Replace with your actual deployed site)*
+👉 [Click here to visit my portfolio](https://fgithaiga.github.io/PERSONAL_PORTFOLIO/)  
+
 
 ---
 
