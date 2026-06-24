@@ -10,8 +10,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #a99090;
-    color: #2a2222;
+    background-color: #F8FAFC;
+    color: #1E293B;
     line-height: 1.7;
     font-size: 1rem;
     overflow-x: hidden;
@@ -75,7 +75,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 60px;
-    background-color: #1d3842;
+    background-color: #0F172A;
     border-bottom: 1px solid #e0cccc;
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@ h3 {
 
 .nav-links a {
     transition: color 0.3s ease;
-    color: #ebdada;
+    color: #E2E8F0;
     text-decoration: none;
     margin-left: 1.5rem;
     font-weight: 500;
@@ -117,7 +117,7 @@ h3 {
 }
 
 .nav-links a:hover {
-    color: #197de8;
+    color: #38BDF8;
 }
 
 
@@ -147,7 +147,7 @@ h3 {
     font-size: 24px;
     background: none;
     border: none;
-    color: #3f3636;
+    color: #E2E8F0;
     cursor: pointer;
     display: none;
     /* Hide on desktop, show on mobile */
@@ -162,7 +162,7 @@ h3 {
     left: -250px;
     height: 100%;
     width: 250px;
-    background-color: #4a5a60;
+    background-color: #1E293B;
     box-shadow: 2px 0 10px rgba(69, 64, 64, 0.1);
     transition: left 0.3s ease;
     padding: 1rem;
@@ -198,7 +198,7 @@ h3 {
     overflow: hidden;
     /* prevents weird overflows */
     transition: color 0.3s ease;
-    color: #eac5c5;
+    color: #E2E8F0;
     text-decoration: none;
     margin-left: 1.5rem;
     font-weight: 500;
@@ -228,7 +228,7 @@ h3 {
 
 .hero-content p {
     font-size: 1.2rem;
-    color: #4d4343;
+    color: #475569;
 }
 
 .hero-img {
@@ -292,8 +292,8 @@ h3 {
   =================================*/
 
 .home-section {
-    background: #033c51;
-    color: #f0d0d0;
+    background: #1E293B;
+    color: #E2E8F0;
     padding: 6rem 0;
     position: relative;
     z-index: 1;
@@ -333,7 +333,7 @@ h3 {
 }
 
 .home-text h1 {
-    color: #eac912;
+    color: #38BDF8;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
@@ -378,17 +378,17 @@ max-width: fit-content;
 /* Example color styles (adjust as needed) */
 
 .btn-primary {
-    background: #ca7123;
+    background: #2563EB;
     color: white;
 }
 
 .btn-secondary {
-    background: #dec2c2;
-    color: #2c458b;
+    background: #E2E8F0;
+    color: #1E293B;
 }
 
 .btn-primary:hover {
-    background: #a76022;
+    background: #1D4ED8;
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(190, 106, 34, 0.25);
 }
@@ -441,7 +441,7 @@ margin-top: 1rem;
 }*/
 
 .btn-secondary:hover {
-    background: #e4cccc;
+    background: #CBD5E1;
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(46, 44, 44, 0.15);
 }
